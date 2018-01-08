@@ -1,0 +1,71 @@
+# 0108筆記
+
+*安裝iterm2
+http://oomusou.io/osx/iterm2-setup/
+https://courses.growthschool.com/courses/50958/lectures/744466
+
+
+＊準備工具
+> Git安裝
+> ssh key貼到gitLab
+> sourcetree
+> google Chrome
+> nvm node管理工具
+ 
+*git ssh key 生成
+https://git-scm.com/book/zh-tw/v1/%E4%BC%BA%E6%9C%8D%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%96%8B%E9%87%91%E9%91%B0
+
+https://backlog.com/git-tutorial/tw/reference/ssh.html
+
+＊nvm報錯 （homebrew安裝問題）
+https://medium.com/@myread02/nvm-%E5%88%87%E6%8F%9B-node-%E7%89%88%E6%9C%AC%E9%AC%BC%E6%89%93%E7%89%86%E5%95%8F%E9%A1%8C-9c24fe0c627b
+
+https://www.v2ex.com/t/273237
+
+＊nvm install
+https://github.com/creationix/nvm
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDERD9mDEVI/nAtUvHHlUH48yZswUxDlZKgD2UD0pOHSW0udZi+o8+Dk5lNgcQOJrHT2MUyhQSS/W626GvrebgK+wLRciGr94j8s/I4KGf7327dH7cNE2GQ3uRnC8D1pWtzD9tbrQ9+xD74zdkTl7KPxy1Znpbzvnw81ZhqUSBPbxxdhuz/LLE2/mfRkHMrZBL4O1EmzxB8sThAyneJn1wH1ZpaResj82Tp5g2adRN8yTPlSoBPI0035rtlu91TtFtEcFohH5CDgKR23zMvrzCLszrGDtsKd1rb9kfBAE5yMekfNtlZd0NFyABFh5uonhxZi9P2WmDkAfwDGnvnXxdT jessie@jessiede-MacBook-Pro.local
+
+*指令快捷鍵
+sb:operator 	         指向當前的專案
+code.      			用vs-code打開目前專案
+*.zshrc 與.bashrc 不一樣
+oh-my-zsh是一套Zsh shell管理工具，簡單來說是zsh framework，會幫我們從內建的Bash改成Zsh
+
+
+nvm install v9.3.0
+node -v
+nvm use --delete-prefix v9.3.0
+node -v
+npm -v 查看版號
+
+
+code ~/.bashrc
+code $(brew --prefix nvm)/nvm.sh
+npm i
+
+
+＊Mac vscode 快捷
+https://www.jianshu.com/p/9f50dfc985e2
+＊Mac vscode 設定
+https://code.visualstudio.com/docs/getstarted/settings
+*vs code自定義設定教學
+http://sammaru.blogspot.tw/2017/03/visual-studio-code.html
+*開發 Angular 必備 VSCode 擴充套件
+https://poychang.github.io/angular-vscode-extensions/
+https://paper.dropbox.com/doc/Angular-VSCode--Kh2w3saOyZtJSHawFoBem
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+source $(brew --prefix nvm)/nvm.sh
+nvm use --delete-prefix v9.3.0
+
+遠端
+alias aws:fe="ssh ubuntu@52.198.106.144"
+alias aws:runner="ssh ubuntu@gitlab-runner.cow.bet"
+alias aws:gitlab="ssh ubuntu@gitlab.cow.bet"
+
+專案
+alias sb:player="cd ~/Projects/Sarbeers/afu_frontend_user"
+alias sb:operator="cd ~/Projects/Sarbeers/afu_frontend"
+alias sb:doc="cd ~/Projects/Sarbeers/sbodds_document.wiki/"
