@@ -31,6 +31,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDERD9mDEVI/nAtUvHHlUH48yZswUxDlZKgD2UD0pOH
 sb:operator 	         指向當前的專案
 code.      			用vs-code打開目前專案
 *.zshrc 與.bashrc 不一樣
+http://huli.logdown.com/posts/402147-iterm2-zsh-better-environment
 oh-my-zsh是一套Zsh shell管理工具，簡單來說是zsh framework，會幫我們從內建的Bash改成Zsh
 
 
