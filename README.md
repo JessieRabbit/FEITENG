@@ -11,6 +11,7 @@ https://blog.kevinyang.net/2017/01/23/angular2-change-detection/<br />
 ★Default和 OnPush 細節部份<br />
 https://blog.kevinyang.net/2016/06/05/angular2-ChangeDetectionStrategy/<br />
 https://segmentfault.com/a/1190000008754052<br />
+https://blog.kevinyang.net/2017/08/09/angular-changedetector-markforcheck/<br />
 
 https://www.youtube.com/watch?v=bst0w7-EklY<br />
 
