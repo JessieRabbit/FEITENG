@@ -12,6 +12,8 @@ https://blog.kevinyang.net/2017/01/23/angular2-change-detection/<br />
 https://blog.kevinyang.net/2016/06/05/angular2-ChangeDetectionStrategy/<br />
 https://segmentfault.com/a/1190000008754052<br />
 
+https://www.youtube.com/watch?v=bst0w7-EklY<br />
+
 ```
 ERROR Error: ViewDestroyedError: Attempt to use a destroyed view: detectChanges
 
