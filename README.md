@@ -25,7 +25,11 @@ ERROR Error: ViewDestroyedError: Attempt to use a destroyed view: detectChanges
   }
 ```
 
-使subscription中斷處理，不然會報錯上面error
+使subscription中斷處理，不然會報錯上面error<br />
+
+★測試prod或營運的環境方法<br />
+環境變數要測prod 寫入w2<br />
+若要側betlink有一個網址 在headers那邊可以看到<br />
 
 ## 問題區
 ＳＰＡ的請教 與ts 語法(res=>res.json()).subscribe(查看<br/>
