@@ -31,6 +31,12 @@ ERROR Error: ViewDestroyedError: Attempt to use a destroyed view: detectChanges
 環境變數要測prod 寫入w2<br />
 若要側betlink有一個網址 在headers那邊可以看到<br />
 
+★queryString<br />
+queryString 出現％20 為空格字串<br />
+https://msdn.microsoft.com/zh-tw/library/system.web.httprequest.querystring(v=vs.110).aspx<br />
+詳細％20 其他輸入對應encode表<br />
+http://www.w3school.com.cn/tags/html_ref_urlencode.html<br />
+
 ## 問題區
 ＳＰＡ的請教 與ts 語法(res=>res.json()).subscribe(查看<br/>
 interface class 差異
